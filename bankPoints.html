@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>DVC Vacation Points Management</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <style type="text/css">
+        #bankPointsBlock {
+            margin-top: 10px;
+        }
+
+        #formBankDate {
+            margin-bottom: 20px;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3" id="bankPointsBlock">
+            <form class="form-horizontal" id="formBankDate">
+                <div class="form-group">
+                    <label for="inputBankDate" class="col-sm-3 col-sm-offset-1 control-label">Bank Date</label>
+
+                    <div class="col-sm-5">
+                        <input type="date" class="form-control" id="inputBankDate">
+                    </div>
+                </div>
+                <mark class="col-sm-offset-4">Max Points Available to Bank: ...</mark>
+            </form>
+
+
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="inputBankPoints" class="col-sm-4 control-label">Points to Bank</label>
+
+                    <div class="col-sm-4">
+                        <input type="number" class="form-control" id="inputBankPoints">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-4 col-sm-4">
+                        <button type="submit" class="btn btn-primary">Bank Points</button>
+                    </div>
+                </div>
+            </form>
+
+
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+
+</body>
+</html>
